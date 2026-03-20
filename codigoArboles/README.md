@@ -19,7 +19,7 @@ Para obtener resultados válidos, se implementó un sistema de **muestreo y prom
    * **Escenario A (Datos Ordenados):** Evalúa el comportamiento de las estructuras ante entradas secuenciales, exponiendo la vulnerabilidad del ABB a la degeneración (árbol desbalanceado).
    * **Escenario B (Datos Aleatorios):** Evalúa el rendimiento en condiciones óptimas de distribución para estructuras de árbol.
 
-## Componentes del Sistema
+## 1. Componentes del Sistema
 
 * `ArbolABB.py`: Implementación de un árbol binario estándar con inserción y búsqueda recursiva.
 * `arbolBplus.py`: Implementación de un Árbol B+ balanceado. Maneja nodos internos y hojas ligadas, garantizando una altura $O(\log n)$.
